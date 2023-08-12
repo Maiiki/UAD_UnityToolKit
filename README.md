@@ -3,20 +3,21 @@
 Included Mechanics:
 
 **Player Movement:**
-- Horizontal and Vertical Movement (e.g., WASD or arrow keys).
+- Horizontal and Vertical Movement (e.g., WASD or arrow keys).[PlayerMovement.cs]
 
 **Camera:**
-- Follow the Player.
-- Limit Camera Boundaries.
+- Follow the Player. [CameraFollow.cs]
+- Limit Camera Boundaries. [CameraFollow.cs]
 
 **Health and Damage:**
-- Player Health System.
-- Taking Damage and Respawning.
+- Player Health System. [PlayerHealth.cs]
+- Taking Damage and Healing. [PlayerHealth.cs]
 
-**Enemies and AI:**
-- Basic Enemy Behavior (e.g., patrolling, chasing).
-- Rotation and look at.
-- Spawn Manager.
+**Basic Enemy Behaviors:**
+- Patrolling. [EnemyPatrol.cs]
+- Chasing. [EnemyMoveTowardsPlayer.cs]
+- Rotation and look at. [LookAtTarget.cs]
+- Spawn Manager. [PrefabSpawnManager.cs]
 
 ----------------------------------------------------------------
 Pending: 
